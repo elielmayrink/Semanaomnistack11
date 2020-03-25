@@ -1,0 +1,34 @@
+rotas => {
+    recursos
+}
+
+Metodos http => {
+    GET: Buscar informação do backend;
+    POST: Usado para criar uma informação no backend;
+    PUT: Quando for alterar uma inf no backend;
+    DELETE: Deletar info no backend;
+}
+Tipos de parametro => {
+    QueryParms: Parametro nomeados enviados na rota apos o "?" (Filtros, paginaçao)
+    ex: const params = request.query;
+    RouterParms: Paramentro usado para identificar recursos;
+    Request body: corpo da requisiçao usado para criar ou alterar recursos;
+
+}
+bancos de dados => sqlite
+
+
+Entidade => {
+    ONG
+    Casos > incident
+}
+Funcionalidades => {
+    login de ong;
+    logout de ong;
+    cadastro de ong;
+    cadastrar novos casos;
+    deletar casos;
+    listar casos especificos da ong;
+    listar todos os casos;
+    entrar em contato com ong;
+}
